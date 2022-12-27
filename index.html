@@ -12,62 +12,67 @@
 
     <div id="background-image-container">
         <div id="background-image-logo-container">
-            <img id="background-image-logo" src="/home/joaquin/Sign Up/Sign-up-odin-project/images/dccfb6f325c1cc1e849a1808c53d84c0-insignia-redonda-de-casco-de-astronauta.png" alt="">
+            <img id="background-image-logo" src="/home/joaquin/Sign up/Sign-up-odin-project/images/dccfb6f325c1cc1e849a1808c53d84c0-insignia-redonda-de-casco-de-astronauta.png" alt="">
             <p id="background-image-text">Galaxy</p>
         </div>
-        <img id="background-image" src="/home/joaquin/Sign Up/Sign-up-odin-project/images/paisaje-digital-en-atardecer_2560x1440_xtrafondos.com.jpg" alt="">
+        <img id="background-image" src="/home/joaquin/Sign up/Sign-up-odin-project/images/paisaje-digital-en-atardecer_2560x1440_xtrafondos.com.jpg" alt="">
     </div>
     
     <div id="right-section">
         <div id="info-container">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt laudantium quidem, reprehenderit illo ipsum, doloremque ipsam quos recusandae beatae odit qui aliquam omnis vero quibusdam consectetur eum? Nisi, voluptatum soluta.</p>
+            <p>Welcome to my little sign-up website. This is just a learning project, DON'T put any real information in the form!</p>
         </div>
     
         <div id="form-container">
 
             <div id="form-text">Let's do it!</div>
 
-            <div id="input-container">
-                <div id="left-side-form">
-                    <label for="first_name">
-                        First Name:
-                        <input type="text" id="first_name">
-                    </label>
-    
-                    <label for="email">
-                        Email:
-                        <input type="email" id="email">
-                    </label>
-    
-                    <label for="password">
-                        Password:
-                        <input type="password" id="password">
-                    </label>
-                </div>
+            <form>
+                <div id="input-container">
+                    <div id="left-side-form">
+                        <label for="first_name">
+                            FIRST NAME
+                            <input type="text" id="first_name" required>
+                        </label>
+        
+                        <label for="email">
+                            EMAIL
+                            <input type="email" id="email" required>
+                        </label>
+        
+                        <label for="password">
+                            PASSWORD
+                            <input type="password" id="password" required>
+                        </label>
+                    </div>
                 
-                <div id="right-side-form">
-                    <label for="last_name">
-                        Last Name:
-                        <input type="text" id="last_name">
-                    </label>
-    
-                    <label for="phone_number">
-                        Phone Number:
-                        <input type="text" id="phone_number">
-                    </label>
-    
-                    <label for="confirm_password">
-                        Confirm Password:
-                        <input type="password" id="confirm_password">
-                    </label>
+                    <div id="right-side-form">
+                        <label for="last_name">
+                            LAST NAME
+                            <input type="text" id="last_name" required>
+                        </label>
+        
+                        <label for="phone_number">
+                            PHONE NUMBER
+                            <input type="text" id="phone_number" required>
+                        </label>
+        
+                        <label for="confirm_password">
+                            CONFIRM PASSWORD
+                            <input type="password" id="confirm_password" required>
+                        </label>
+                    </div>
                 </div>
-            </div>
-            
 
+
+                <div id="submit-button-container">
+                    <button id="submit-button" type="submit">Create Account</button>
+                </div>
+            </form>
+            
         </div>
-    
-        <div id="submit-button-container">
-            <button type="submit">Create Account</button>
+
+         <div id="bottom-text">
             <p>Already have an account? <a href="">Log In</a></p>
         </div>
     </div>
